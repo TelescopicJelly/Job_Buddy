@@ -1,0 +1,60 @@
+body {
+    background-color: #2F4F4F;
+    font-family: Inter, system-ui, sans-serif;
+    text-align: center;
+
+}
+
+h1 {
+    color: #CFE8E3;
+    font-family: "Gravitas One", serif;
+    font-size: 55px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+h3 {
+    color: #F5F5F5;
+}
+
+p {
+    color: #EDEDED;
+}
+
+#button {
+    border-style: groove;
+    border-radius: 40rem;
+    font-size: large;
+}
+
+h4 {
+    color: #EDEDED;
+    padding: 20px;
+    border: 8px solid;
+    width: 300px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;  
+}
+
+#header_benefits {
+    padding-top: 60px;
+}
+
+.horizontal_listing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+
+.horizontal_listing > div {
+  width:33%;
+  justify-content: center;
+}
